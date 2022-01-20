@@ -1,0 +1,5 @@
+p=int(input("enter number"))
+t=int(input("enter number"))
+r=int(input("enter number"))
+compound_interest= p * (pow((1 + r / 100), t))
+print("compound_interest is:",compound_interest)
